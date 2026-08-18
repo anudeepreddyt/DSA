@@ -12,7 +12,7 @@ class Solution {
         }
 
         if(gobalMax>0)
-            return Math.max(gobalMax,total-gobalMin);
+            return Math.max(gobalMax,total-gobalMin); // circular sum kosam total-gobalMin
         else 
             return gobalMax; 
     }
