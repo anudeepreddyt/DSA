@@ -1,3 +1,4 @@
+//better space complex with one hashmap
 class Solution {
     public String minWindow(String s, String t) {
         HashMap<Character,Integer> map=new HashMap<>();
